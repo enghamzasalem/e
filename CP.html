@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html ng-app="myApp" ng-controller="myCtrl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+   
+ 
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlgRIj0KXiA3ds2c6QzT8Kcjz_9_GfO5s&sensor=true&libraries=placeses,visualization,drawing,geometry,places"></script>
+     
+     
+     <link rel="manifest" href="manifest.json">
+         <!-- <meta property="og:title" name="mess" content=""> -->
+            <!-- <meta property="og:type" content="article"> -->
+            <!-- <meta property="og:url" content="http://talakidsclub.com/images/headers/loader.gif"> -->
+            <!-- <meta property="og:image" name="image" content=""> -->
+            <!-- <meta property="og:site_name" content="Whatsapper.com"> -->
+            <!-- <meta property="og:description" content="{{orderdetails.Message}}"> -->
+            <!-- /Facebook Card -->
+
+        <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2268716620016264');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2268716620016264&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1058317064352242&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+   
+  </head>
+  <body >
+ <center style="padding-top:13%">
+ <img src=" https://thomas.vanhoutte.be/miniblog/wp-content/uploads/light_blue_material_design_loading.gif" width="150px" />
+    
+     <!-- <img ng-src="https://s18955.pcdn.co/wp-content/uploads/2017/05/WhatsApp.png" width="200px" /> -->
+     <!-- <br> -->
+     <h2>Redirecting  ...
+     </h2><br>
+    
+    </center> 
+     
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+     
+      
+     var _0xb3b8=["\x69\x6E\x69\x74\x69\x61\x6C\x69\x7A\x65\x41\x70\x70","\x41\x49\x7A\x61\x53\x79\x42\x36\x67\x30\x41\x4F\x39\x4F\x57\x4D\x56\x62\x31\x4A\x36\x68\x45\x34\x72\x56\x39\x68\x6C\x4B\x76\x6F\x53\x62\x47\x6F\x64\x67\x41","\x6D\x79\x63\x6D\x73\x37\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x61\x70\x70\x2E\x63\x6F\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6D\x79\x63\x6D\x73\x37\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D","\x66\x69\x72\x65\x62\x61\x73\x65\x2D\x6D\x79\x63\x6D\x73\x37","\x66\x69\x72\x65\x62\x61\x73\x65\x2D\x6D\x79\x63\x6D\x73\x37\x2E\x61\x70\x70\x73\x70\x6F\x74\x2E\x63\x6F\x6D","\x35\x34\x37\x38\x30\x34\x32\x36\x36\x31\x34\x34","\x31\x3A\x35\x34\x37\x38\x30\x34\x32\x36\x36\x31\x34\x34\x3A\x77\x65\x62\x3A\x36\x36\x36\x62\x61\x34\x31\x35\x36\x31\x30\x35\x32\x37\x64\x61","\x73\x68\x69\x66\x74","\x70\x75\x73\x68","\x30\x78\x30","\x30\x78\x31","\x30\x78\x32","\x30\x78\x33","\x30\x78\x34","\x30\x78\x35","\x30\x78\x36","\x30\x78\x37"];var _0x1e35=[_0xb3b8[0],_0xb3b8[1],_0xb3b8[2],_0xb3b8[3],_0xb3b8[4],_0xb3b8[5],_0xb3b8[6],_0xb3b8[7]];(function(_0xdc62x2,_0xdc62x3){var _0xdc62x4=function(_0xdc62x5){while(--_0xdc62x5){_0xdc62x2[_0xb3b8[9]](_0xdc62x2[_0xb3b8[8]]())}};_0xdc62x4(++_0xdc62x3)}(_0x1e35,0x1e1));var _0x5a05=function(_0xdc62x7,_0xdc62x8){_0xdc62x7= _0xdc62x7- 0x0;var _0xdc62x9=_0x1e35[_0xdc62x7];return _0xdc62x9};var firebaseConfig={"\x61\x70\x69\x4B\x65\x79":_0x5a05(_0xb3b8[10]),"\x61\x75\x74\x68\x44\x6F\x6D\x61\x69\x6E":_0x5a05(_0xb3b8[11]),"\x64\x61\x74\x61\x62\x61\x73\x65\x55\x52\x4C":_0x5a05(_0xb3b8[12]),"\x70\x72\x6F\x6A\x65\x63\x74\x49\x64":_0x5a05(_0xb3b8[13]),"\x73\x74\x6F\x72\x61\x67\x65\x42\x75\x63\x6B\x65\x74":_0x5a05(_0xb3b8[14]),"\x6D\x65\x73\x73\x61\x67\x69\x6E\x67\x53\x65\x6E\x64\x65\x72\x49\x64":_0x5a05(_0xb3b8[15]),"\x61\x70\x70\x49\x64":_0x5a05(_0xb3b8[16])};firebase[_0x5a05(_0xb3b8[17])](firebaseConfig);
+    </script>
+ 
+    <script>
+    
+var app = angular.module('myApp', ['firebase']);
+app.controller('myCtrl', function($scope,$http,$firebaseArray,$firebase,$firebaseObject) {
+console.log(document.referrer);
+var ref = new Firebase("https://mycms7.firebaseio.com/");
+// $scope.Drivers=$firebaseArray(ref.child("WhatsapperTool").child("links"));
+  
+  var url_string = window.location.href; //window.location.href
+var url = new URL(url_string);
+var id = url.searchParams.get("id");
+//alert(id);
+
+
+
+
+  $scope.orderdetails= $firebaseObject(ref.child("WhatsapperTool").child('links').child(id)).$loaded().then(function(data2){
+   $scope.orderdetails=data2;
+ //  alert($scope.orderdetails);
+    $http.get("https://api.ipify.org?format=json").then(function(response){
+             console.log(response);
+             $scope.Ipp=response.data.ip;
+             });
+ setTimeout(function(){
+ 
+             
+         $http.post("http://api.ipstack.com/"+$scope.Ipp+"?access_key=cace9e809c043b17428b32e9d0cc4916")
+           //$http.post("http://www.geoplugin.net/json.gp")
+  .then(function(response) {
+  <!-- var counter= $scope.orderdetails.counter+1; -->
+<!-- ref.child("WhatsapperTool").child('links').child(id).update({ -->
+              <!-- counter:counter -->
+            <!-- }); -->
+      console.log(response);
+      
+      
+      var ua= navigator.userAgent, tem,
+    M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+    if(/trident/i.test(M[1])){
+        tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+        return 'IE '+(tem[1] || '');
+    }
+    if(M[1]=== 'Chrome'){
+        tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+        if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+    }
+    M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+    if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+    $scope.Browser=M.join(' ');
+    if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+  $scope.device="Mobile"
+ }else{
+ $scope.device="PC"
+ }
+    var comingFrom="Apps"
+    if (document.referrer == null){
+       comingFrom="Other";
+}else{
+comingFrom=document.referrer;
+}
+	  ref.child("WhatsapperTool").child('links').child(id).child("Vistors").push({
+            ipAddress: response.data.ip,
+            continentCode:response.data.continent_code,
+            continentName:response.data.continent_name,
+            countryCode:response.data.country_code,
+            region_code:response.data.region_code,
+            countryName:response.data.country_name,
+            region_name:response.data.region_name,
+            city:response.data.city,
+            latitude:response.data.latitude,
+            longitude:response.data.longitude,
+            city:response.data.city,
+            zip:response.data.zip,
+            country_flag:response.data.location.country_flag,
+            Browser:$scope.Browser,
+            Device:$scope.device,
+            language:navigator.language,
+            platform:navigator.platform,
+            Coming:comingFrom
+            });
+       
+             
+            
+  }).then(function(dataa){
+ // fbq('track', 'CompleteRegistration'); 
+ 
+ var link="";
+ //alert($scope.orderdetails)
+ if ($scope.orderdetails.type=='WhatsApp'){
+     link='https://api.whatsapp.com/send?phone='+$scope.orderdetails.Phone+'&text='+$scope.orderdetails.Message+'.';
+  }else if ($scope.orderdetails.type=='Calls'){
+       link="tel:"+$scope.orderdetails.Phone;
+  }else{
+       link=$scope.orderdetails.Phone;
+       }
+   
+ window.location.href = link;
+ 
+ 
+ 
+});
+          
+         }, 1000); 
+  });
+ 
+            	 
+      
+    
+});
+ 
+</script>
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1058317064352242');
+  fbq('track', 'PageView');
+</script>
+<!-- Facebook Pixel Code -->
+
+  </body>
+</html>
